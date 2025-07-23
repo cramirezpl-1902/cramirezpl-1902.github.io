@@ -37,3 +37,51 @@ ESP32, sensores de gas, ventilación automática, sistema embebido, PCB, MQ-2, h
 -Video del proyecto
 [sistema de ventilacion](https://choosealicense.com/licenses/mit/)
 
+
+# CONTEXTO
+## Problemática
+En diversos entornos industriales y subterráneos, como minas, bodegas cerradas o cuartos técnicos, existe un riesgo constante de acumulación de gases tóxicos o inflamables, así como humo en caso de incendios o fallas eléctricas. La exposición prolongada a estas condiciones puede provocar intoxicaciones, incendios o explosiones.
+
+En muchos de estos lugares, no se cuenta con sistemas de monitoreo y ventilación automáticos que permitan detectar y evacuar estos gases de manera eficiente. Las soluciones comerciales existentes suelen ser costosas o difíciles de adaptar a espacios pequeños o de bajo presupuesto.
+
+Esta problemática hace necesario el desarrollo de un sistema autónomo, económico, eficiente y fácil de implementar, que permita detectar condiciones peligrosas y activar mecanismos de ventilación sin intervención humana inmediata.
+## Objetivos
+Objetivo general:
+Desarrollar un sistema automático de ventilación para espacios cerrados que detecte la presencia de humo o gases nocivos y active un sistema extractor de forma inmediata, utilizando una ESP32 y una PCB diseñada a medida.
+
+Objetivos específicos:
+Diseñar una PCB funcional para integrar sensores de gas, actuadores y microcontrolador.
+
+-Implementar el código embebido para el control automático del sistema.
+
+-Fabricar una carcasa o encapsulado funcional para alojar los componentes.
+
+-Evaluar el sistema en un entorno de prueba simulando condiciones reales.
+
+-Documentar el proceso de diseño, implementación, pruebas y resultados.
+## Alcance de proyecto
+ Incluye:
+
+-Diseño y fabricación de una PCB funcional
+
+-Programación del sistema embebido usando ESP32
+
+-Integración de sensores de gas (como MQ-2)
+
+-Activación automática de ventilador al detectar gases
+
+-Ensamblaje del prototipo con carcasa física
+
+-Pruebas en laboratorio o entornos controlados
+
+No incluye:
+
+-Implementación en campo real (mina o espacio industrial real)
+
+-Monitoreo remoto vía Wi-Fi o app (se puede proponer como mejora futura)
+
+-Alimentación con baterías recargables o sistema autónomo de energía
+## Ruta / Roadmap del Proyecto
+<img width="615" height="123" alt="roadmap" src="https://github.com/user-attachments/assets/c643b672-fba3-4c89-b5c8-17315db5e03c" />
+
+
