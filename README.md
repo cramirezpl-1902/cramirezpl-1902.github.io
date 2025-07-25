@@ -122,6 +122,8 @@ Se realizaron simulaciones básicas del circuito con herramientas como Tinkercad
 
 ##  Bocetos y esquemas preliminares
 Durante la etapa de diseño se elaboraron esquemas a mano en papel o tablero, para discutir en equipo la distribución de pines, los componentes necesarios y la topología del circuito.
+![boceto circuito](https://github.com/user-attachments/assets/a09225d1-c073-4878-9eee-6c35fdb65a63)
+
 
 ## Diseño de PCB en KiCad
 
@@ -139,6 +141,8 @@ Buzzer y LEDs
 Conectores y terminales
 
 # Layout (ruteo de pistas)
+![diagrama de procesos](https://github.com/user-attachments/assets/d87bc602-8d8a-41ba-afa0-3eba22ac9ce5)
+
 
 #  Render 3D de la PCB
 Se generó una vista 3D del diseño final para verificar disposición de componentes y facilitar el diseño del encapsulado.
@@ -153,6 +157,8 @@ Foto con sensores y actuadores conectados:
 
 # DISEÑO E IMPLEMENTACION DEL SOFTWARE
 ## Diagramas de flujo de tareas del sistema
+![diagrama de software](https://github.com/user-attachments/assets/a61533ac-5d81-4139-b123-7cea5ed9cb5b)
+
 ## Código y pruebas unitarias
 Se desarrollaron scripts de prueba para cada componente:
 
