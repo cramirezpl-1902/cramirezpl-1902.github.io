@@ -141,7 +141,7 @@ Buzzer y LEDs
 Conectores y terminales
 
 # Layout (ruteo de pistas)
-![diagrama de procesos](https://github.com/user-attachments/assets/d87bc602-8d8a-41ba-afa0-3eba22ac9ce5)
+---------
 
 
 #  Render 3D de la PCB
