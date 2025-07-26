@@ -32,11 +32,12 @@ ESP32, sensores de gas, ventilación automática, sistema embebido, PCB, MQ-2, h
 
 ## Banner
 -Banner:
+![BANNER](https://github.com/user-attachments/assets/1c924f37-222e-4d2b-a6c2-d8924c32d178)
+
 
 ## Video del proyecto
 -Video del proyecto
-[sistema de ventilacion](https://choosealicense.com/licenses/mit/)
-
+[sistema de ventilacion](https://youtu.be/QRv0CnRphJU)
 
 
 # CONTEXTO
@@ -111,24 +112,20 @@ Uso de impresión 3D con materiales reciclables como PETG o PLA.
 Implementación futura de alimentación mediante energía solar para hacerlo autónomo.
 
 # DISEÑO E IMPLEMENTACION 
-## Diseño del Case (Corte 3D)
-##  Imágenes del diseño
-## Evidencias de implementación física
-## Evidencias de implementación física
 
 # DISEÑO E IMPLMENTACION ELECTRONICA
 ## Simulaciones (opcional)
 Se realizaron simulaciones básicas del circuito con herramientas como Tinkercad o Proteus, para validar el funcionamiento del sensor MQ-2, el control del ventilador mediante transistor y la lógica de activación. Estas simulaciones ayudaron a verificar que las conexiones lógicas eran correctas antes de fabricar la PCB.
+![simulacion 1](https://github.com/user-attachments/assets/f9ee9a26-6944-40bf-8d78-f42a1f96a706)
+![simulacion 2](https://github.com/user-attachments/assets/235ae79a-7684-4072-a1b8-ce034402d53d)
+
 
 ##  Bocetos y esquemas preliminares
 Durante la etapa de diseño se elaboraron esquemas a mano en papel o tablero, para discutir en equipo la distribución de pines, los componentes necesarios y la topología del circuito.
 ![boceto circuito](https://github.com/user-attachments/assets/a09225d1-c073-4878-9eee-6c35fdb65a63)
 
-
-## Diseño de PCB en KiCad
-
 Esquemático del circuito
-El esquemático fue desarrollado en KiCad, incluyendo los siguientes elementos:
+## El esquemático fue desarrollado en KiCad, incluyendo los siguientes elementos:
 
 Sensor MQ-2
 
@@ -136,24 +133,26 @@ ESP32
 
 Transistor/MOSFET para control del ventilador
 
-Buzzer y LEDs
-
 Conectores y terminales
 
 # Layout (ruteo de pistas)
----------
+![Imagen de WhatsApp 2025-07-25 a las 23 57 07_5d073e41](https://github.com/user-attachments/assets/feeee7e7-e0e3-45fc-aa28-a0c204144b19)
 
 
-#  Render 3D de la PCB
-Se generó una vista 3D del diseño final para verificar disposición de componentes y facilitar el diseño del encapsulado.
 # Fabricación de la PCB
 Foto de la PCB fabricada (vacía):
+![pcb sin componentes](https://github.com/user-attachments/assets/818558f5-a220-404a-9e1e-3ef905f4b25b)
+![respaldo pcb](https://github.com/user-attachments/assets/da8131cd-8835-49ef-b65b-959e2d9d5a9a)
+
+
+
 
 
 Foto con componentes soldados:
+![pcb con componentes](https://github.com/user-attachments/assets/7bb7d1b0-f8b3-4d92-99c9-904a99c4dc25)
 
 
-Foto con sensores y actuadores conectados:
+
 
 # DISEÑO E IMPLEMENTACION DEL SOFTWARE
 ## Diagramas de flujo de tareas del sistema
@@ -170,14 +169,12 @@ El código fue implementado en Jhonny IDE, y estructurado por módulos (setup, l
 ##  Interacción con interfaces externas
 Se programaron posibles pines para integración con una app móvil o una interfaz serial (monitor de Arduino).
 
-Opcionalmente se dejó preparado el código para incluir Wi-Fi (ESP32).
-
 # EVIDENCIAS
 ## Proceso de integración y ensamble
 Montaje físico del sistema:
+![pcb con componentes](https://github.com/user-attachments/assets/7bb7d1b0-f8b3-4d92-99c9-904a99c4dc25)
 
 Errores comunes detectados:
-
 Inversión de conexiones en el sensor
 
 Baja sensibilidad del MQ-2 sin precalentamiento
